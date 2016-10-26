@@ -1,0 +1,22 @@
+﻿<Window x:Class="TreeView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreeView"
+        mc:Ignorable="d"
+        Title="TreeView" Height="200" Width="200">
+	<Window.DataContext>
+		<local:ViewModel />
+	</Window.DataContext>
+
+	<Window.Resources>
+		<HierarchicalDataTemplate x:Key="TreeViewItemTemplate" ItemsSource="{Binding}">
+			<TextBlock Text="{Binding Name}" />
+		</HierarchicalDataTemplate>
+	</Window.Resources>
+
+	<TreeView
+		ItemTemplate="{StaticResource TreeViewItemTemplate}"
+		ItemsSource="{Binding RootNode}" />
+</Window>
