@@ -1,7 +1,7 @@
-﻿<Application x:Class="ListViewItemDoubleClick.App"
+﻿<Application x:Class="ListViewDoubleClick.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ListViewItemDoubleClick"
+             xmlns:local="clr-namespace:ListViewDoubleClick"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

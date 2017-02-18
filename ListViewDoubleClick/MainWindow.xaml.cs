@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ListViewItemDoubleClick
+namespace ListViewDoubleClick
 {
 	/// <summary>
 	/// MainWindow.xaml の相互作用ロジック

@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace ListViewItemDoubleClick
+namespace ListViewDoubleClick
 {
 	/// <summary>
 	/// ビューモデル

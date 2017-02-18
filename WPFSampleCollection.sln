@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView", "TreeView\TreeVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Placeholder", "Placeholder\Placeholder.csproj", "{8C034545-A98E-404D-82D3-A31A7BDECFC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewItemDoubleClick", "ListViewItemDoubleClick\ListViewItemDoubleClick.csproj", "{17434405-541E-4B8F-A752-C36FA473BD6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewDoubleClick", "ListViewDoubleClick\ListViewDoubleClick.csproj", "{17434405-541E-4B8F-A752-C36FA473BD6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace ListViewItemDoubleClick
+namespace ListViewDoubleClick
 {
 	/// <summary>
 	/// ダブルクリックした時にコマンドを実行する添付ビヘイビア
