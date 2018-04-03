@@ -1,16 +1,10 @@
 WPFSampleCollection
 ====================
 
-TreeView
----------
+EnumComboBox
+-------------
 
-HierarchicalDataTemplateとObservableCollectionを使用して
-TreeViewを表示します。
-
-Placeholder
-------------
-
-Adornerを利用して、プレースホルダをTextBoxに表示します。
+マークアップ拡張を利用してComboBoxに列挙体をBindingします。
 
 ListViewItemDoubleClick
 ------------------------
@@ -23,3 +17,14 @@ ListViewContextMenu
 
 ListViewItemに対してコンテキストメニューを開きます。  
 またコマンド実行の際に、引数としてそのアイテムを渡します。
+
+Placeholder
+------------
+
+Adornerを利用して、プレースホルダをTextBoxに表示します。
+
+TreeView
+---------
+
+HierarchicalDataTemplateとObservableCollectionを使用して
+TreeViewを表示します。
