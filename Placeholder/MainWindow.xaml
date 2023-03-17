@@ -4,16 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Placeholder"
-        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
 		Background="White"
         Title="Placeholder" Width="300" Height="100">
 
 	<Grid>
 		<TextBox AcceptsReturn="True">
-			<i:Interaction.Behaviors>
+			<b:Interaction.Behaviors>
 				<local:PlaceholderBehaivor Text="Please enter."/>
-			</i:Interaction.Behaviors>
+			</b:Interaction.Behaviors>
 		</TextBox>
 	</Grid>
 </Window>
