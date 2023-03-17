@@ -1,16 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EnumComboBox
+namespace EnumComboBox;
+
+enum Dogs
 {
-	enum Dogs
-	{
-		[Display(Name = "Golden Retriver")]
-		GoldenRetriver,
+    [Display(Name = "Golden Retriver")] GoldenRetriver,
 
-		[Display(Name = "Miniture Dachshund")]
-		MinitureDachshund,
+    [Display(Name = "Miniture Dachshund")] MinitureDachshund,
 
-		[Display(Name = "Border Collie")]
-		BorderCollie,
-	}
+    [Display(Name = "Border Collie")] BorderCollie,
 }
