@@ -16,21 +16,18 @@ class Node : ObservableCollection<Node>
     /// <summary>
     /// ノード名
     /// </summary>
-    private string _name;
+    private readonly string _name;
 
     /// <summary>
     /// ノード名
     /// </summary>
     private string Name
     {
-        get { return _name; }
-        set
+        get => _name;
+        init
         {
             _name = value;
-            if (PropertyChanged != null)
-            {
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs("Name"));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Name"));
         }
     }
 
