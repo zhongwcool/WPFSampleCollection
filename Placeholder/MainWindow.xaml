@@ -12,7 +12,7 @@
 	<Grid>
 		<TextBox AcceptsReturn="True">
 			<b:Interaction.Behaviors>
-				<local:PlaceholderBehaivor Text="Please enter."/>
+				<local:PlaceholderBehavior Text="Please enter."/>
 			</b:Interaction.Behaviors>
 		</TextBox>
 	</Grid>

@@ -6,7 +6,7 @@ namespace ListViewContextMenu;
 /// <summary>
 /// ビューモデル
 /// </summary>
-class ViewModel
+internal class ViewModel
 {
     /// <summary>
     /// 犬リスト
@@ -40,7 +40,7 @@ class ViewModel
     /// 選択時の処理
     /// </summary>
     /// <param name="item">選択アイテム</param>
-    private void OnSelect(string item)
+    private static void OnSelect(string item)
     {
         System.Windows.MessageBox.Show(item);
     }
